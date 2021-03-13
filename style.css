@@ -213,6 +213,7 @@ ul {
   cursor: pointer;
   text-decoration: underline;
 }
+
 .col33-link:hover,
 .col33-bottom-link:hover,
 .map-links:hover {
@@ -223,4 +224,15 @@ ul {
   color: blue;
   cursor: pointer;
   text-decoration: underline;
+}
+.footer-menu-item {
+  color: white;
+  text-decoration: none;
+}
+
+/*contact page*/
+.contact-cont {
+  display: flex;
+  height: 540px;
+  border: solid 1px black;
 }
