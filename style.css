@@ -21,6 +21,9 @@
   justify-content: center;
   height: 38px;
   background-color: grey;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .navrow-menu {
@@ -39,6 +42,19 @@
   padding-right: 10px;
   padding-left: 10px;
   position: relative;
+}
+.navrow-menu-item {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+#fb-icon {
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 1px;
+  width: 17px;
+  height: 17px;
 }
 #paz-logo {
   right: -140px;
@@ -125,6 +141,7 @@
   direction: ltr;
   text-align: left;
   font-weight: lighter;
+  text-decoration: underline;
 }
 .col33-bottom-header {
   padding-top: 10px;
@@ -159,6 +176,7 @@
   margin-top: 8px;
   font-size: 13px;
   color: grey;
+  text-decoration: underline;
 }
 ul {
   list-style: none;
@@ -175,5 +193,34 @@ ul {
   margin-top: 15px;
   margin-left: 20px;
   color: grey;
+  text-decoration: underline;
+}
+.footer-menu-items,
+.footer-menu-item {
+  display: flex;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.footer-items-cont {
+  width: 930px;
+  direction: rtl;
+  margin: 0px;
+}
+
+.footer-menu-item:hover {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.col33-link:hover,
+.col33-bottom-link:hover,
+.map-links:hover {
+  color: blue;
+  cursor: pointer;
+}
+.navrow-menu-item:hover {
+  color: blue;
+  cursor: pointer;
   text-decoration: underline;
 }
