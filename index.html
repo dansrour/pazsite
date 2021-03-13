@@ -9,8 +9,54 @@
   </head>
   <body>
     <nav class="nav-cont">
-      <div class="navrow">1</div>
-      <div class="navrow">2</div>
+
+      <div class="navrow-search">
+
+        <img id="search-icon" src="assets/search_button.png" alt="search" />
+
+        <input type="text" class="navrow-search-items" placeholder="רשום מילת חיפוש"></input>
+        <div class="navrow-search-items">English</div>
+      </div>
+      <div class="navrow-menu">
+
+
+        <ul class="navrow-menu-items">
+            <img id="paz-logo" src="assets/paz_logo.png" alt="pazlogo" />
+
+
+          <img id="home-icon" src="assets/menu_home_blue.png" alt="home" />
+          <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
+
+          <li class="navrow-menu-items">אודות</li>
+          <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
+          <li class="navrow-menu-items">חטיבות</li>
+          <img src="assets/menu_sep.png" alt="sep" />
+
+          <li class="navrow-menu-items">אחריות תאגידית</li>
+          <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
+
+          <li class="navrow-menu-items">קשרי משקיעים</li>
+          <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
+
+          <li class="navrow-menu-items">התחנות שלנו</li>
+          <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
+
+          <li class="navrow-menu-items">קריירה</li>
+          <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
+
+          <li class="navrow-menu-items">חדשות ומדיה</li>
+        </ul>
+
+        <!--
+        <div class="navrow-menu">אודות</div>
+        <div class="navrow-menu">חטיבות</div>
+        <div class="navrow-menu">אחריות תאגידית</div>
+        <div class="navrow-menu">קשרי משקיעים</div>
+        <div class="navrow-menu">התחנות שלנו</div>
+        <div class="navrow-menu">קריירה</div>
+        <div class="navrow-menu">חדשות ומדיה</div>
+        -->
+      </div>
     </nav>
     <main class="main-cont">
       <div class="col33" style="background-image: url('assets/paz1.jpg')">
@@ -20,9 +66,7 @@
             במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעונאית, הנדל"נית,
             והשיווקית של הקבוצה, שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה
             פועלת...
-            <div class="col33-link">
-              <a href="https://www.w3schools.com/">קרא עוד</a>
-            </div>
+            <div class="col33-link">קרא עוד</div>
           </div>
         </div>
       </div>
@@ -33,9 +77,7 @@
           <div class="col33-text">
             פז זיקוק אשדוד (פז"א) היא חטיבת הזיקוק של קבוצת פז. החטיבה עוסקת
             בניהול פעילות בית הזיקוק באשדוד, הכוללת ייצור תזקיקי נפט...
-            <div class="col33-link">
-              <a href="https://www.w3schools.com/">קרא עוד</a>
-            </div>
+            <div class="col33-link">קרא עוד</div>
           </div>
         </div>
       </div>
@@ -45,9 +87,7 @@
           <div class="col33-text">
             תחת חטיבת התעשיות והשירותים של פז פועלות מספר חברות בנות, המתמחות
             בפיתוח, ייצור ושיווק מוצרי לוואי של נפט, ומובילות את השוק...
-            <div class="col33-link">
-              <a href="https://www.w3schools.com/">קרא עוד</a>
-            </div>
+            <div class="col33-link">קרא עוד</div>
           </div>
         </div>
       </div>
@@ -57,19 +97,54 @@
         <div class="col33-bottom-header">
           כרטיס אשראי שופרסל וכרטיס אשראי יש
         </div>
-        <div class="col33-bottom-image">image</div>
+        <div class="col33-bottom-line"></div>
+
+        <div
+          class="col33-bottom-image"
+          style="background-image: url('assets/paz4.jpg')"
+        ></div>
         <div class="col33-bottom-link">פרטים נוספים</div>
       </div>
       <div class="col33-bottom">
-        <div class="col33-bottom-header">טיפז</div>
-        <div class="col33-bottom-image">image</div>
+        <div class="col33-bottom-header">yellow click & pick</div>
+        <div class="col33-bottom-line"></div>
+
+        <div
+          class="col33-bottom-image"
+          style="background-image: url('assets/paz5.jpg')"
+        ></div>
         <div class="col33-bottom-link">פרטים נוספים</div>
       </div>
       <div class="col33-bottom">
         <div class="col33-bottom-header">התחנות שלנו בדרך שלך</div>
-        <div class="col33-bottom-image">image</div>
+        <div class="col33-bottom-line"></div>
+        <div class="col33-map-image-cont">
+          <div class="col33-map-text">
+            <ul>
+              <li>צפון</li>
+              <li>מרכז</li>
+              <li>דרום</li>
+            </ul>
+          </div>
+          <div
+            class="col33-map-image"
+            style="background-image: url('assets/map.png')"
+          ></div>
+        </div>
       </div>
     </section>
-    <footer></footer>
+    <footer class="footer-cont">
+      <div class="navrow-menu"><a href="#">עמוד הבית</a></div>
+      <div class="navrow-menu"><a href="#">מחירונים</a></div>
+      <div class="navrow-menu"><a href="#">קריירה</a></div>
+      <div class="navrow-menu"><a href="#">תנאי שימוש</a></div>
+      <div class="navrow-menu"><a href="#">נגישות</a></div>
+      <div class="navrow-menu"><a href="#">מפת האתר</a></div>
+      <div class="navrow-menu"><a href="#">צור קשר</a></div>
+      <div class="navrow-menu"><a href="#">שטחי מסחר</a></div>
+      <div class="navrow-menu">
+        <a href="#">הסדר פשרה בתובענההייצוגית בעניין הסדר פזומט</a>
+      </div>
+    </footer>
   </body>
 </html>

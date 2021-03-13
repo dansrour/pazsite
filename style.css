@@ -3,33 +3,81 @@
   direction: rtl;
   text-align: right;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
 }
 
 .nav-cont {
   display: flex;
   flex-direction: column;
-  border: solid 1px black;
   justify-content: center;
   height: 105px;
   background-color: grey;
 }
 
-.navrow {
-  border: solid 1px black;
-  width: 900px;
-  margin: auto;
+.footer-cont {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  height: 38px;
+  background-color: grey;
 }
 
+.navrow-menu {
+  width: 900px;
+  margin: auto;
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  direction: ltr;
+  padding-top: 10px;
+}
+.navrow-menu-items {
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+#paz-logo {
+  right: -140px;
+  top: -40px;
+  position: absolute;
+}
+#home-icon {
+  margin-top: 2px;
+  width: 17px;
+  height: 15px;
+}
+#search-icon {
+  margin-top: 1px;
+
+  width: 20px;
+  height: 20px;
+}
+.navrow-search {
+  padding-top: 7px;
+  width: 900px;
+  display: flex;
+  margin: auto;
+  direction: ltr;
+}
+.navrow-search-items {
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 75%;
+}
 .main-cont {
   display: flex;
-  border: solid 1px black;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 33px;
   height: 354px;
 }
 .second-cont {
   display: flex;
-  border: solid 1px black;
   justify-content: center;
   height: 215px;
   margin-top: 20px;
@@ -42,17 +90,19 @@
   border-bottom-right-radius: 5%;
 }
 .col33-bottom {
-  border: solid 1px black;
   width: 290px;
   margin-left: 7px;
   margin-right: 7px;
   border-top-right-radius: 10%;
+  background-color: gainsboro;
 }
 
 .col33-header {
   width: 248px;
-  height: 95px;
+  height: 96px;
   margin-left: 34px;
+  margin-right: 7px;
+
   margin-top: 250px;
   background-color: gray;
   opacity: 0.92;
@@ -63,8 +113,10 @@
   color: white;
 }
 .col33-text {
+  margin-top: 2px;
   font-size: 13px;
   color: white;
+  line-height: 13px;
   font-weight: lighter;
 }
 .col33-link {
@@ -72,17 +124,56 @@
   color: white;
   direction: ltr;
   text-align: left;
+  font-weight: lighter;
 }
 .col33-bottom-header {
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
   font-size: 14px;
   font-weight: bold;
+  color: grey;
+}
+.col33-bottom-line {
+  border-bottom: solid 2px darkgray;
+  width: 250px;
+  margin: auto;
+  margin-top: 6px;
+  opacity: 0.9;
 }
 
 .col33-bottom-image {
+  width: 250px;
+  height: 110px;
+  margin: auto;
+  margin-top: 16px;
+}
+.col33-map-image {
+  width: 73px;
+  height: 170px;
+  margin-top: 8px;
+}
+
+.col33-map-text {
+  width: 70%;
+  height: 170px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: grey;
+}
+ul {
+  list-style: none;
+  padding-right: 20px;
+}
+
+.col33-map-image-cont {
+  display: flex;
 }
 .col33-bottom-link {
   font-size: 13px;
   direction: ltr;
   text-align: left;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: grey;
+  text-decoration: underline;
 }
