@@ -27,32 +27,171 @@
           <img id="home-icon" src="assets/menu_home_blue.png" alt="home" />
           <img class="navrow-menu-item" src="assets/menu_sep.png" alt="sep" />
 
-          <li class="navrow-menu-item">אודות</li>
+          <li class="navrow-menu-item">אודות
+            <div class="dropdown-content">
+              <ul>
+                <li>אודות</li>
+                <li>היסטוריה</li>
+                <li>חזון וערכים</li>
+                <li>מבנה הקבוצה</li>
+                <li>חברי דירוקטוריון</li>
+                <li>הנהלת הקבוצה<li>
+                <li>פרסים והוקרה</li>
+              </ul>
+            </div>
+          </li>
 
           <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
-          <li class="navrow-menu-item">חטיבות</li>
+          <li class="navrow-menu-item">חטיבות
+            <div class="dropdown-content">
+              <ul>
+                <li>חטיבות</li>
+                <li>קמעונעות ומסחר</li>
+                <li>תעשיות ושירותים</li>
+                <li>זיקוק</li>
+              </ul>
+            </div>
+          </li>
           <img src="assets/menu_sep.png" alt="sep" />
 
-          <li class="navrow-menu-item">אחריות תאגידית</li>
+          <li class="navrow-menu-item">אחריות תאגידית
+            <div class="dropdown-content">
+              <ul>
+                <li>אחריות תאגידית</li>
+                <li>הקוד האתי</li>
+                <li>מעורבות חברתית</li>
+                <li>נגישות</li>
+                <li>איכות הסביבה ובטיחות</li>
+                <li>דירוג מעלה</li>
+              </ul>
+            </div>
+          </li>
           <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
 
-          <li class="navrow-menu-item">קשרי משקיעים</li>
+          <li class="navrow-menu-item">קשרי משקיעים
+            <div class="dropdown-content">
+              <ul>
+                <li>פרופיל חברה</li>
+                <li>דוחות כספיים</li>
+                <li>כלים למשקיע</li>
+                <li>נתוני מניה</li>
+                <li>אסיפות כלליות</li>
+              </ul>
+            </div>
+          </li>
           <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
 
-          <li class="navrow-menu-item">התחנות שלנו</li>
+          <li class="navrow-menu-item">התחנות שלנו
+            <div class="dropdown-content">
+              <ul>  
+                <li>התחנות שלנו</li>
+                <li>נגישות מתחמי פז</li>
+                <li>רשימת תחנות</li>
+                <li>מועדונים</li>  
+             </ul>
+            </div>
+          </li>
           <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
 
-          <li class="navrow-menu-item">קריירה</li>
+          <li class="navrow-menu-item">קריירה
+            <div class="dropdown-content">
+              <ul>  
+                <li>לעבוד בפז</li>
+                <li>ניהול תחנת פז</li>
+                <li>קריירה</li>
+             </ul>
+            </div>
+          </li>
           <img class="navrow-menu-items" src="assets/menu_sep.png" alt="sep" />
 
-          <li class="navrow-menu-item">חדשות ומדיה</li>
+          <li class="navrow-menu-item">חדשות ומדיה
+            <div class="dropdown-content">
+              <ul>  
+                <li>פרסומות</li>
+                <li>הודעות לעיתונות</li>
+             </ul>
+            </div>
+          </li>
         </ul>
 
         
       </div>
     </nav>
 <main>
-    <div class="contact-cont"></div>
+    <div class="top-contact-cont">
+      <div class="top-contact-first">
+       
+        <ul><li><img src="assets/wm_tb_prv_on.png" style="width: 10px; margin-top: 4px; margin-right: 0px;" alt="arrow"> צור קשר
+          
+        </li></ul>
+      </div>
+      <div class="top-contact-second">עמוד הבית > צור קשר
+        <p class="contact-caption">צור קשר</p>
+      </div>
+    </div>
+    <div class="main-contact-cont">
+      <div class="main-contact-first">
+        <p class="top-line"></p>
+        <div class="main-contact-first-box" style="background-image: url('assets/contact_form_bg.png')">צור קשר
+          <p class="contact-text">
+            <strong>ליצירת קשר עם קשרי לקוחות אנא מלאו את הפרטים הבאים ואנו נשמח לעמוד לרשותכם :
+            </strong>
+          </p> 
+
+          <p class="instruction-text">* השדות המסומנים בכוכבית (*) הינם שדות חובה
+          </p>
+          <form class="form">
+            <div>
+              <label for="fname">* שם פרטי</label>
+              <input class="form-input" id="fname" type="text" />
+            </div>
+            <div>
+              <label for="lname">* שם משפחה</label>
+              <input class="form-input" id="lname" type="text"  />
+            </div>
+            <div>
+              <label for="id">* טלפון</label>
+              <input class="form-input" id="id" type="text"  />
+            </div>
+            <div>
+              <label for="email">* E-mail</label>
+              <input class="form-input" id="id" type="email" />
+            </div>
+            <div>
+              <label for="freetext"></label>
+              <textarea id="freetext" cols="20" rows="6" placeholder="תוכן הפנייה" style="width: 242px; margin-top: 5px;"></textarea>
+            </div>
+            <button class="form-button">שלח</button>
+          </form>
+        </div>
+      </div>
+      <div class="main-contact-second">
+        <div class="main-contact-second-top" style="background-image: url('assets/cube_bg.png')">פרטי יצירת קשר
+            <p class="contact-text">
+              <strong>פז חברת נפט בע"מ</strong>
+                <br>
+                יורו פארק, בנין הולנד
+                <br>
+                קיבוץ יקום 60972
+                <br>
+                טל. שירות לקוחות 1-800-774-774
+                <br>
+                פקס.09-8641714
+            </p>
+        </div>
+        <div class="main-contact-second-bot" style="background-image: url('assets/cube_bg.png')">עוד בפז
+          <p class="contact-text">
+            <strong>ליצירת קשר עם דוברות פז</strong>
+             <br>
+             <a href="#" style="text-decoration: none; color: blue;">לחצו כאן&gt;&gt;</a>
+             <br>
+            <strong>רוצים לעבוד בפז?</strong>
+            <br>
+            <a href="#" style="text-decoration: none; color: blue;">לחצו כאן&gt;&gt;</a>
+
+        </div>
+      </div>
+    </div>
 </main>
     </section>
     <footer class="footer-cont">
