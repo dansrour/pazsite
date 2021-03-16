@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PazSite</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <nav class="nav-cont">
@@ -24,7 +25,7 @@
             <img id="paz-logo" src="assets/paz_logo.png" alt="pazlogo" />
 
 
-          <img id="home-icon" src="assets/menu_home_blue.png" alt="home" />
+          <img id="home-icon" src="assets/menu_home_grey.png" alt="home" />
           <img class="navrow-menu-item" src="assets/menu_sep.png" alt="sep" />
 
           <li class="navrow-menu-item">אודות
@@ -125,7 +126,7 @@
           
         </li></ul>
       </div>
-      <div class="top-contact-second"><a class="link-to-home" style="text-decoration: none; color:  #6d6d6d;" href="#">עמוד הבית ></a> צור קשר
+      <div class="top-contact-second"><a class="link-to-home"  href="#">עמוד הבית ></a> צור קשר
         <p class="contact-caption">צור קשר</p>
       </div>
     </div>
@@ -140,28 +141,32 @@
 
           <p class="instruction-text">* השדות המסומנים בכוכבית (*) הינם שדות חובה
           </p>
-          <form class="form">
+          <form id="myform" class="form">
             <div>
               <label for="fname">* שם פרטי</label>
-              <input class="form-input" id="fname" type="text" />
+              <input class="form-input" id="fname" type="text"required />
+              <span class="error">שדה חובה</span>
             </div>
             <div>
               <label for="lname">* שם משפחה</label>
-              <input class="form-input" id="lname" type="text"  />
+              <input class="form-input" id="lname" type="text" required />
+              <span class="error">שדה חובה</span>
             </div>
             <div>
               <label for="id">* טלפון</label>
-              <input class="form-input" id="id" type="text"  />
+              <input class="form-input" id="id" type="text" required />
+              <span class="error">שדה חובה</span>
             </div>
             <div>
               <label for="email">* E-mail</label>
-              <input class="form-input" id="id" type="email" />
+              <input class="form-input" id="id" type="email" required />
+              <span class="error">דוא"ל לא תקין</span>
             </div>
             <div>
               <label for="freetext"></label>
-              <textarea id="freetext" cols="20" rows="6" placeholder="תוכן הפנייה" style="width: 242px; margin-top: 5px;"></textarea>
+              <textarea id="freetext"  cols="20" rows="6" placeholder="תוכן הפנייה" style="width: 242px; margin-top: 5px;"></textarea>
             </div>
-            <button class="form-button">שלח</button>
+            <button class="form-button" type="button" onclick="submitForm()"value="Submit Form" >שלח</button>
           </form>
         </div>
       </div>
