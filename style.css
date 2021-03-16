@@ -425,6 +425,7 @@ p {
   display: none;
   color: red;
   margin-top: -15px;
+  margin-right: 8px;
 }
 
 .form-submitted input:invalid ~ .error {
